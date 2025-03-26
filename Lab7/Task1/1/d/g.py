@@ -1,1 +1,4 @@
-print( (lambda a,b: ' '.join(([b[a-1-i] for i in range(a)]))) ( int(input()), input().split() )  )  
+nums = list(map(int, input().split()))
+max_value = max(nums)
+max_index = nums.index(max_value)
+print(max_value, max_index)
