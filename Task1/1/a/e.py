@@ -1,1 +1,0 @@
-print((lambda a,b: (a*b) %109) (int(input()) for _ in range(2)))
