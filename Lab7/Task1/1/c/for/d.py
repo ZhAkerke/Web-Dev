@@ -1,1 +1,1 @@
-print(str(input()).count(str(input())))
+print(sum(map(int, input())))
